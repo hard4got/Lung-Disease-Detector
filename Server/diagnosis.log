@@ -1,0 +1,51 @@
+2024-06-20 10:35:33.599360: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-06-20 10:35:34.738912: I tensorflow/tsl/cuda/cudart_stub.cc:28] Could not find cuda drivers on your machine, GPU will not be used.
+2024-06-20 10:35:39.619328: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+ * Serving Flask app 'FlaskServer'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://142.171.172.188:5001
+[33mPress CTRL+C to quit[0m
+WARNING:tensorflow:SavedModel saved prior to TF 2.5 detected when loading Keras model. Please ensure that you are saving the model with model.save() or tf.keras.models.save_model(), *NOT* tf.saved_model.save(). To confirm, there should be a file named "keras_metadata.pb" in the SavedModel directory.
+(20, 157)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 1s/step
+37.214.56.64 - - [20/Jun/2024 10:36:20] "POST /upload HTTP/1.1" 200 -
+WARNING:tensorflow:SavedModel saved prior to TF 2.5 detected when loading Keras model. Please ensure that you are saving the model with model.save() or tf.keras.models.save_model(), *NOT* tf.saved_model.save(). To confirm, there should be a file named "keras_metadata.pb" in the SavedModel directory.
+Result prediction: 
+Healthy
+Confidence Percentage: 83.09 %
+(20, 157)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 215ms/step
+37.214.56.64 - - [20/Jun/2024 10:38:09] "POST /upload HTTP/1.1" 200 -
+WARNING:tensorflow:SavedModel saved prior to TF 2.5 detected when loading Keras model. Please ensure that you are saving the model with model.save() or tf.keras.models.save_model(), *NOT* tf.saved_model.save(). To confirm, there should be a file named "keras_metadata.pb" in the SavedModel directory.
+Result prediction: 
+Healthy
+Confidence Percentage: 89.39 %
+(20, 157)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 246ms/step
+37.214.56.64 - - [20/Jun/2024 10:39:21] "POST /upload HTTP/1.1" 200 -
+WARNING:tensorflow:SavedModel saved prior to TF 2.5 detected when loading Keras model. Please ensure that you are saving the model with model.save() or tf.keras.models.save_model(), *NOT* tf.saved_model.save(). To confirm, there should be a file named "keras_metadata.pb" in the SavedModel directory.
+Result prediction: 
+Healthy
+Confidence Percentage: 74.84 %
+(20, 157)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 203ms/step
+37.214.56.64 - - [20/Jun/2024 10:39:36] "POST /upload HTTP/1.1" 200 -
+WARNING:tensorflow:SavedModel saved prior to TF 2.5 detected when loading Keras model. Please ensure that you are saving the model with model.save() or tf.keras.models.save_model(), *NOT* tf.saved_model.save(). To confirm, there should be a file named "keras_metadata.pb" in the SavedModel directory.
+WARNING:tensorflow:5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7fe633d5fb80> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+Result prediction: 
+Healthy
+Confidence Percentage: 74.01 %
+(20, 157)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 206ms/step
+37.214.56.64 - - [20/Jun/2024 10:40:21] "POST /upload HTTP/1.1" 200 -
+WARNING:tensorflow:SavedModel saved prior to TF 2.5 detected when loading Keras model. Please ensure that you are saving the model with model.save() or tf.keras.models.save_model(), *NOT* tf.saved_model.save(). To confirm, there should be a file named "keras_metadata.pb" in the SavedModel directory.
+WARNING:tensorflow:6 out of the last 6 calls to <function Model.make_predict_function.<locals>.predict_function at 0x7fe633d3f5e0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+Result prediction: 
+Healthy
+Confidence Percentage: 87.59 %
+(20, 157)
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 0s 198ms/step
+37.214.56.64 - - [20/Jun/2024 10:40:32] "POST /upload HTTP/1.1" 200 -
